@@ -1,0 +1,101 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* tailwind Global Css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+  --first-hue: 420;
+  --sat: 63%;
+  --lig: 62%;
+  --second-hue: 219;
+  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 60%);
+  --title-color: hsl(var(--second-hue), 15%, 95%);
+  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --text-color-light: hsl(var(--second-hue), 4%, 55%);
+  --body-color: hsl(var(--second-hue), 48%, 8%);
+  --container-color: hsl(var(--second-hue), 36%, 15%);
+  --bgcointer-color: rgb(19, 47, 76);
+  --border-color: hsl(0, 0%, 94%);
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --biggest-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  --tiny-font-size: 0.625rem;
+  --font-tiny-size: 10px;
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semibold: 600;
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-black: 900;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+
+  /*========== Hover overlay ==========*/
+  --img-transition: 0.3s;
+  --img-hidden: hidden;
+  --img-scale: scale(1.1);
+}
+
+/* Responsive typography */
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 3.5rem;
+  }
+}
+
+/*=============== BASE ===============*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: 0.4s;
+  /* for light mode animation */
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ==== */
+.conter {
+  background-image: url("https://awcdn1.ahmad.works/writing/wp-content/uploads/2015/05/cheerful-loving-couple-bakers-drinking-coffee-PCAVA6B-2.jpg");
+  background-position: center;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.705);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.backdrop {
+  background-color: rgba(0, 21, 41, 0.2);
+  backdrop-filter: blur(4px);
+}
