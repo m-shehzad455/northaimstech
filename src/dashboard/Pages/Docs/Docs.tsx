@@ -3,11 +3,12 @@ import AlertCard from "src/Components/AlertCard/AlertCard";
 import Graph from "src/Components/Charts/SimpleChart";
 import AppShell from "../../../_app/AppShell";
 import Map from "src/Components/Map";
+import App from "src/App";
 
-function Docs() {
+function Dashboard() {
   return (
-    <AppShell>
-      <div className="m-5 mb-8 flex flex-col z-40">
+    <AppShell />
+      /* <div className="m-5 mb-8 flex flex-col z-40">
         <div className="pb-5">
           <AlertCard.Simple
             title="We announced a new product!"
@@ -24,9 +25,9 @@ function Docs() {
           <Map />
         </div>
         <Graph />
-      </div>
-    </AppShell>
+      </div> */
+    
   );
 }
 
-export default Docs;
+export default Dashboard;
