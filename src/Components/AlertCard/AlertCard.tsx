@@ -93,16 +93,6 @@ const AlertCardBanner = (props: TAlertCardProps) => {
         </div>
       </div>
 
-      {/* <div className={textClasses}>{text}</div> */}
-      {/* <span className="block sm:ml-2 sm:inline-block">
-            <a href="#/" className="text-green-900 font-bold underline">
-                Learn more <span aria-hidden="true">&rarr;</span>
-            </a>
-        </span> */}
-      {/* <XIcon className="h-6 w-6 text-white" aria-hidden="true" /> */}
-      {/* {title && <h3 className={titleClasses}>{title}</h3>} */}
-      {/* {text && <div className={textClasses}>{text}</div>} */}
-      {/* <div className="flex-shrink-0">{icon()}</div> */}
     </div>
   );
 };

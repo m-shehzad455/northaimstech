@@ -28,7 +28,7 @@ function TopNavigate() {
       {/* Search section */}
       <div className="flex justify-center items-center">
         <h3 className="text-lg leading-6 font-medium text-gray-900 hidden lg:block">
-          Blog Postings
+        Home
         </h3>
       </div>
 

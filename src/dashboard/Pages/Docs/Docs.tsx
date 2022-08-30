@@ -15,11 +15,7 @@ function Docs() {
           />
         </div>
         <div className="py-5 px-5">
-          <Title className="font-bold">All Documents</Title>
-          <Text>
-            All the documents in your Workspace — in sync and available
-            anywhere.
-          </Text>
+          <Title className="font-bold">Good morning, Emilia Birch</Title>
         </div>
         <Map />
       </div>

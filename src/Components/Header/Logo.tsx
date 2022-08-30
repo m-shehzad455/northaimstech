@@ -4,7 +4,7 @@ import { Title } from "@mantine/core";
 
 export function HeaderLogo() {
   return (
-    <Title order={4}>DoYar__@pp | 😍</Title>
+    <Title order={4}>NorthAimsTech |</Title>
     // <ListTile
     //   leading={
     //     <Image

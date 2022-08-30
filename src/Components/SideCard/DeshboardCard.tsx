@@ -11,15 +11,15 @@ import { classNames } from "../../Utils/ClassNames";
 
 const navigation = [
   { name: "Dashboard", href: "/docs", icon: HomeIcon, current: false },
-  // { name: 'Team', href: '/projects', icon: UsersIcon, current: false },
   { name: "Projects", href: "/projects", icon: FolderIcon, current: false },
   { name: "Documents", href: "/blog", icon: InboxIcon, current: false },
   { name: "Reports", href: "/report", icon: ChartBarIcon, current: false },
 ];
 
 const navgate = [
-  { name: "Projects", href: "#", icon: FolderIcon, current: false },
-  { name: "Documents", href: "#", icon: InboxIcon, current: false },
+  { name: "Settings", href: "#", icon: FolderIcon, current: false },
+  { name: "Help", href: "#", icon: InboxIcon, current: false },
+  { name: "Privacy", href: "#", icon: InboxIcon, current: false },
 ];
 
 export default function DeshboardCard() {
